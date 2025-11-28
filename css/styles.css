@@ -606,6 +606,7 @@ button {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  margin-bottom: 72px;
 }
 
 .portfolio .app .name {
@@ -614,8 +615,29 @@ button {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  margin: 0;
-  padding: 0;
+  margin-bottom: 8px;
+}
+
+.portfolio .app {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
+    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+}
+
+.portfolio .app:not(:last-child) {
+  margin-bottom: 48px;
+}
+
+.portfolio .app .app-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-left: 1px solid #e7e9fc;
+  border-bottom: 1px solid #e7e9fc;
+  border-right: 1px solid #e7e9fc;
+  padding: 32px 16px;
 }
 
 /* #endregion Portfolio */
