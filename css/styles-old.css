@@ -807,10 +807,6 @@ footer {
   color: #2e2f42;
 }
 
-/* .input-wrapper:focus .field-icon {
-  fill: #4d5ae5;
-} */
-
 .input-field:focus + .field-icon {
   fill: #4d5ae5;
 }
